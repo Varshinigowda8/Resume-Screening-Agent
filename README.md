@@ -1,4 +1,4 @@
-# 🤖 AI Resume Screening Agent
+![d9e0a9d7-9323-4f21-9700-99634302c6b3](https://github.com/user-attachments/assets/af4cc089-e937-4dd2-9dee-4a232a5a5d73)# 🤖 AI Resume Screening Agent
 
 An open-source AI-powered Resume Screening Agent that reads resumes (PDF/DOCX), scores them based on job relevance, and sends personalized feedback via email — all with a single click.
 
@@ -43,13 +43,13 @@ This project is designed for:
 
 ## 🧰 Tech Stack & APIs Used
 
-- **Frontend**: Streamlit  
-- **Backend**: Python  
-- **NLP**: spaCy, NLTK  
-- **File Handling**: PyPDF2, python-docx, pdfplumber  
-- **Email**: smtplib, email-validator  
-- **ML Scoring**: Custom heuristic model (can be replaced with trained ML model)  
-- **Other Libraries**: pandas, numpy, tqdm, validators  
+- Frontend: Streamlit  
+- Backend: Python  
+- NLP: spaCy, NLTK  
+- File Handling: PyPDF2, python-docx, pdfplumber  
+- Email: smtplib, email-validator  
+- ML Scoring: Custom heuristic model (can be replaced with trained ML model)  
+- Other Libraries**: pandas, numpy, tqdm, validators  
 
 ---
 🌱 Potential Improvements
@@ -62,54 +62,50 @@ This project is designed for:
 
 
 🏗️ Architecture Diagram (End-to-End Workflow)
+
+
+
 Flow:
-User → Streamlit Web UI
-Candidate uploads resume (PDF or DOCX) via a simple drag-and-drop interface.
-Streamlit handles the front-end interaction.
-File Handling Layer
-Libraries: PyPDF2, python-docx, pdfplumber
-Extracts raw text from uploaded resumes.
-Cleans and normalizes text for NLP processing.
-NLP Processing Layer
-Libraries: spaCy, NLTK
-Performs keyword extraction, tokenization, and skill matching.
-Identifies relevant sections (skills, projects, education, achievements).
-Resume Scoring Engine
-Heuristic/ML-based scoring model (scikit-learn or custom logic).
-Evaluates resumes based on:
-Skill-job relevance
-Experience depth
-Formatting quality
-Keyword density
-Feedback Generation
-Uses a template (feedback_template.txt) to generate personalized feedback.
-Inserts score and breakdown into the feedback message.
-Email Delivery
-Libraries: smtplib, email-validator
-Sends feedback directly to the candidate’s email.
-Ensures proper validation and secure delivery.
-Logging & Storage
-Each screening is logged (resume metadata, score, feedback).
-Enables recruiters to track history and analytics.
-Output → Candidate
-Candidate receives a feedback email with score and improvement suggestions.
-Recruiter can view logs for reference.
+1.User → Streamlit Web UI
+2.Candidate uploads resume (PDF or DOCX) via a simple drag-and-drop interface.
+3.Streamlit handles the front-end interaction.
+4.File Handling Layer
+5.Libraries: PyPDF2, python-docx, pdfplumber
+6.Extracts raw text from uploaded resumes.
+7.Cleans and normalizes text for NLP processing.
+8.NLP Processing Layer
+9.Libraries: spaCy, NLTK
+10.Performs keyword extraction, tokenization, and skill matching.
+11.Identifies relevant sections (skills, projects, education, achievements).
+12.Resume Scoring Engine
+13.Heuristic/ML-based scoring model (scikit-learn or custom logic).
+14.Evaluates resumes based on:
+15.Skill-job relevance
+17.Experience depth
+18.Formatting quality
+19.Keyword density
+20.Feedback Generation
+21.Uses a template (feedback_template.txt) to generate personalized feedback.
+22.Inserts score and breakdown into the feedback message.
+23.Email Delivery
+24.Libraries: smtplib, email-validator
+25.Sends feedback directly to the candidate’s email.
+26.Ensures proper validation and secure delivery.
+27.Logging & Storage
+28.Each screening is logged (resume metadata, score, feedback).
+29.Enables recruiters to track history and analytics.
+30.Output → Candidate
+31.Candidate receives a feedback email with score and improvement suggestions.
+32Recruiter can view logs for reference.
 
 📊 Diagram Explanation (Narration)
 Step 1: The user uploads a resume through the Streamlit Web UI.
-
 Step 2: The resume file is passed to the File Handling Layer, which extracts text using PyPDF2, python-docx, and pdfplumber.
-
 Step 3: The extracted text flows into the NLP Processing Layer, where spaCy and NLTK perform keyword extraction and skill matching.
-
 Step 4: The Resume Scoring Engine evaluates the resume using heuristic or ML-based scoring logic.
-
 Step 5: A Feedback Generator prepares a personalized message using a template, embedding the score and breakdown.
-
 Step 6: The feedback is sent via SMTP Email Delivery, ensuring proper validation.
-
 Step 7: All results are stored in Logs for recruiter reference.
-
 Step 8: Finally, the candidate receives a feedback email with actionable insights.
 
 ## 🛠️ Setup & Run Instructions
@@ -127,5 +123,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
 # Run the Streamlit app
+cd Resume-Screening-agent
+cd resume-main
 streamlit run app.py
 
