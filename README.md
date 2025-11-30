@@ -1,10 +1,11 @@
-![d9e0a9d7-9323-4f21-9700-99634302c6b3](https://github.com/user-attachments/assets/af4cc089-e937-4dd2-9dee-4a232a5a5d73)# 🤖 AI Resume Screening Agent
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/f7ce84db-eeb7-43cb-b74a-77c398bf7100" />![d9e0a9d7-9323-4f21-9700-99634302c6b3](https://github.com/user-attachments/assets/af4cc089-e937-4dd2-9dee-4a232a5a5d73)# 🤖 AI Resume Screening Agent
 
 An open-source AI-powered Resume Screening Agent that reads resumes (PDF/DOCX), scores them based on job relevance, and sends personalized feedback via email — all with a single click.
 
 ## 🌐 Live Demo
 
-👉 https://resume-analyservarshini.streamlit.app/
+👉 https://resume-screening-agent-jocjvnnp4xuj8x3wbbxcxu.streamlit.app/
+
 
 ---
 
