@@ -22,8 +22,8 @@ ARCHITECTURE DIAGRAM
   <img width="1280" height="731" alt="image" src="https://github.com/user-attachments/assets/18606884-bb15-4191-b72c-c25a152edda6" />
           Fig 5: Display of the calculated resume score along with extracted keywords and personalized feedback.
 
-  <img width="1280" height="719" alt="image" src="https://github.com/user-attachments/assets/cd868def-67bd-49cb-8c8b-a1449de2033b" />
-         Fig 6: Contact and Support page providing help resources and support details for users of the Resume Scoring application.
+  <img width="1280" height="719" alt="image" src="https://github.com/user-attachments/assets/442e4164-84c5-4b49-be64-7b65a61c5c73" />
+       Fig 6: Contact and Support page providing help resources and support details for users of the Resume Scoring application.
                
 ## 🌐 Live Demo
 
