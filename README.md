@@ -2,6 +2,8 @@
 
 An open-source AI-powered Resume Screening Agent that reads resumes (PDF/DOCX), scores them based on job relevance, and sends personalized feedback via email — all with a single click.
 
+ARCHITECTURE DIAGRAM
+<img width="1280" height="853" alt="image" src="https://github.com/user-attachments/assets/bf17b2ba-7b61-4863-b458-9bbc4111219b" />
 
 <img width="1280" height="628" alt="image" src="https://github.com/user-attachments/assets/2b1dd4f4-cb4c-4764-a8dc-91f1bfddc9f5" />
 
