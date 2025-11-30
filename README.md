@@ -5,9 +5,26 @@ An open-source AI-powered Resume Screening Agent that reads resumes (PDF/DOCX), 
 ARCHITECTURE DIAGRAM
 <img width="1280" height="853" alt="image" src="https://github.com/user-attachments/assets/bf17b2ba-7b61-4863-b458-9bbc4111219b" />
 
-<img width="1280" height="628" alt="image" src="https://github.com/user-attachments/assets/2b1dd4f4-cb4c-4764-a8dc-91f1bfddc9f5" />
 
+ <img width="1280" height="719" alt="image" src="https://github.com/user-attachments/assets/d565c22d-6f08-467a-91df-d726ab409981" />
+               Fig 1: Login interface for accessing the Secure Resume Scoring system on the web application.
 
+              
+<img width="1280" height="554" alt="image" src="https://github.com/user-attachments/assets/da832afb-78cb-4cff-8b7e-d800e0c856c8" />
+               Fig 2: Registration page for creating a new user account in the Resume Scoring application.
+
+ <img width="1280" height="628" alt="image" src="https://github.com/user-attachments/assets/2b1dd4f4-cb4c-4764-a8dc-91f1bfddc9f5" />
+            Fig 3: User dashboard displaying the AI Resume Scoring interface on the web application.
+
+  <img width="1280" height="632" alt="image" src="https://github.com/user-attachments/assets/ca6516ff-e832-4ee8-907f-a6e4c2436927" />
+           Fig 4: Resume upload interface where users submit their PDF/DOCX file for scoring and feedback.
+
+  <img width="1280" height="731" alt="image" src="https://github.com/user-attachments/assets/18606884-bb15-4191-b72c-c25a152edda6" />
+          Fig 5: Display of the calculated resume score along with extracted keywords and personalized feedback.
+
+  <img width="1280" height="719" alt="image" src="https://github.com/user-attachments/assets/cd868def-67bd-49cb-8c8b-a1449de2033b" />
+         Fig 6: Contact and Support page providing help resources and support details for users of the Resume Scoring application.
+               
 ## 🌐 Live Demo
 
 👉 https://resume-screening-agent-jocjvnnp4xuj8x3wbbxcxu.streamlit.app/
